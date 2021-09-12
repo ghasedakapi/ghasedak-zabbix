@@ -9,7 +9,7 @@ text="$3" # Should container the value of {ALERT.MESSAGE} or {ALERT.SUBJECT}
 
 echo "$(date) ${text} ${from} $to" >> /tmp/log.txt
 
-curl -X POST "http://api.ghasedak.io/v2/sms/send/simple?agent=zabbix" \
+curl -X POST "http://api.ghasedak.me/v2/sms/send/simple?agent=zabbix" \
 	-H "apikey: ${API_KEY}" \
 	-H 'cache-control: no-cache' \
 	-H 'content-type: application/x-www-form-urlencoded' \
