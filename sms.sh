@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Get the API KEY from your ghasedak.io account
+# Get the API KEY from your ghasedak.me account
 readonly API_KEY=''
 
 to="$1" # Should contain the value of {ALERT.SENDTO}
